@@ -1,0 +1,65 @@
+
+body {
+    background-color: ;
+    font-family: serif;
+  
+
+.container {
+    justify-content: flex-start;
+    
+}
+
+.header {
+    background-color: #782221;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.profile {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.contact-info {
+    background-color: #2c1d27ac;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    
+}
+
+.main-content {
+    display: flex;
+}
+.sidebar {
+    background-color: #782221;
+   width: 200px;
+   height: auto;
+    padding: 20px;
+       
+}
+
+.mainbar {
+    margin: 10px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #782221;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.social-icons img {
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50px;
+    max-height: 50px;
+  
+
+}
