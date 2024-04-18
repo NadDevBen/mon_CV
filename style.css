@@ -1,11 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
 body {
-    background-color: ;
+   
     font-family: serif;
-  
+}
 
 .container {
     justify-content: flex-start;
+   
     
 }
 
@@ -21,6 +26,7 @@ body {
     width: 150px;
     height: 150px;
     object-fit: cover;
+   
 }
 
 .contact-info {
@@ -29,23 +35,33 @@ body {
     justify-content: space-between;
     width: auto;
     height: auto;
+    padding: 10px;
     
 }
 
 .main-content {
     display: flex;
+    border-right: 2px solid #782221 ;
+   
 }
 .sidebar {
     background-color: #782221;
-   width: 200px;
-   height: auto;
+    width: 200px;
+    height: auto;
     padding: 20px;
+    text-align: justify;
+    h2{
+        background-color: #dbc2a4;
+
+    }
        
 }
 
 .mainbar {
     margin: 10px;
     padding: 20px;
+   
+
 }
 
 .footer {
